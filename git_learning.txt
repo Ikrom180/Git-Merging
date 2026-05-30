@@ -1,0 +1,65 @@
+--Git Merging--
+
+
+
+
+
+
+
+
+
+
+
+
+Git -> version history for code
+//
+git init => it will track the current folder actions
+git status => it shows what changes we made and do not commited yet
+git add . // config.py => git will add latest version and we can handle what we want to add to the git i mean file
+git commit -m "Versions" // --amend -> amend means it will add changes without adding new version
+git commit -m 'Version upgraded' --amend it will not create new branch insted it will rechange standing file
+git log => understandable
+git log --all --graph => show with graph -- it won`t show unnamed branch
+git checkout ``hashcode`` it will return our code back
+git checkout '#hashcode' folder name or dot => it will copy what we have versions not changing commit version 'number'
+git checkout main => when we do like this code my head move to where main branch standing field
+
+git checkout #hashcode . // dot will copy file info's without changing head informations
+
+
+// if we came back to the previous version and commit it again it will create new branch tree do not continue straight
+// if we wanted to remove git all of the history we have to just remove .git file and it will auto remove git transactions
+
+########################################################
+// Git repository => folder that is being tracked by git
+// GitHub => specifically designed for git repositories
+//inside computer when i open folder it's called -> local repository
+// when i open to github repo it's called online repository
+
+
+git branch -M main => Big -M  force to change what ever branch is
+git branch -d branch-name => will delete given branch -- it will del local branch
+git push origin branch-name --delete mansur => it will remove remote rep
+
+--If before we used to amed in local pc we should us this code
+git push origin branch-name -f
+
+git remote prune origin => clean up local references
+git show-ref => shows all references include remote
+git remote add origin http.. link => it will link to current and remote repository
+git remote -v => v -> meant verbose ->  Give more details
+git remote remove origin => it will remove linked url and we can add another  url for cloning
+Upload to GitHub => push
+Downland from GitHub => pull
+
+/ 
+	Git push only pushes commits like commit in local repo
+/
+
+git clone url folder_name / if you have folder do not write folder name
+git push origin   #36 given name main / master
+
+git fetch => downland new data from a remote repository like (Github, Gitlab) without merging auto
+git pull origin main/master   => So while git fetch just downloads changes for you to review, git pull downloads AND integrates them immediately.
+
+git pull origin master --set-upstream => than we can just write /git pull\.
