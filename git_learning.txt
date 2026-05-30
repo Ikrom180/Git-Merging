@@ -1,6 +1,6 @@
 --Git Merging--
 git branch branchName
-
+git merge branchName -m 'merge Message' => combining branches
 
 
 
