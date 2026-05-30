@@ -2,6 +2,9 @@
 git branch branchName
 git merge branchName -m 'merge Message' => combining branches
 
+## if we meet git merge conflict after merging we choose which change we want to choose and
+we leave the what code we want then we commmit it then it will auto merge only our
+commit count, before we have to finish our merge
 
 
 
